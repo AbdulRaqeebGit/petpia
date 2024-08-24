@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+@keyframes border-animation {
+  0% {
+    border: 1px solid #7c58d3;
+  }
+}
+@keyframes m-card {
+  0% {
+    color: white;
+  }
+}
+@keyframes a-tag {
+  0% {
+    color: #ffda47;
+    text-decoration: underline;
+  }
+}
+body {
+  background-image: url("img/shapes_overlay_1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services-item {
+  position: relative;
+}
+.fa-sharp {
+  color: blueviolet;
+}
+.display-2 h1 {
+  font-size: 100%;
+}
+.btn-r {
+  width: 16rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  background-color: #7c58d3 !important;
+  color: white !important;
+}
+.fa-paw {
+  color: yellow;
+}
+.display-2 h1{
+    font-weight: 900;
+}
+a .btn-r {
+  font-size: 150%;
+  font-weight: 800;
+}
+.circle {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+}
+.c-1 {
+  background-color: #ffda47;
+  position: absolute;
+  right: -15%;
+  top: 20%;
+}
+.c-2 {
+  background-color: #ff47a2;
+  position: absolute;
+  left: -15%;
+  top: 35%;
+}
+.cat-img-1 img {
+  position: absolute;
+  right: -10%;
+  top: 20%;
+  height: 450px;
+  width: 300px;
+}
+.cat-img-2 img {
+  position: absolute;
+  left: -7%;
+  top: 40%;
+  height: 355px;
+  width: 282px;
+}
+.services-card {
+  margin-top: 100px !important;
+}
+.ser-c {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #ebe5f7;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 1;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+}
+.ser-c:hover {
+  animation-name: border-animation;
+  animation-duration: 2s;
+}
+.m-s-card {
+  height: 400px;
+  width: 400px;
+}
+.m-s-card:hover {
+  background: url("img/shape_path_1.svg") no-repeat;
+  background-size: cover;
+  background-color: #7c58d3;
+  border: 1px solid #7c58d3;
+}
+.medical-services {
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto;
+}
+.m-card {
+  border: 1px solid #ebe5f7;
+  border-radius: 10px;
+}
+.m-card a {
+  color: #7c58d3;
+  text-decoration: none;
+}
+.m-card a:hover {
+  animation-name: a-tag;
+  animation-duration: 30s;
+}
+.m-card h3 {
+  font-weight: 800;
+}
+.m-card h4 {
+  color: #7c58d3;
+}
+.m-card h4:hover{
+    animation-name: m-card;
+    animation-duration: 30s;  
+}
+.m-card:hover {
+  border: 1px solid #7c58d3;
+  background: url("img/shape_path_1.svg") no-repeat;
+  background-color: #7c58d3;
+  background-size: cover;
+  animation-name: m-card;
+  animation-duration: 30s;
+}
+.dropdown-med button,.dropdown-menu{
+  width: 100% !important;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.features-col-1 h1,p{
+  padding-left: 30px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features-col-2{
+  position: relative;
+}
+.features-col-2 img:nth-child(1){
+  position: absolute;
+  left: 0%;
+  border-radius: 10px;
+}
+.features-col-2 img:nth-child(2){
+  position: absolute;
+  bottom: 0%;
+  right: 10%;
+  border-radius: 10px;
+  border: 5px solid white;
+}
+.features-col-2 img:nth-child(3){
+  position: absolute;
+  bottom: 50%;
+  right: 0%;
+  border-radius: 10px;
+  border: 5px solid white;
+}
+.features{
+  margin-bottom: 200px;
+}
+.grooming-card{
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grooming-card button{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 100px;
+  background-color: #FFDA47;
+}
+.grooming-card h4{
+  color: white;
+  font-weight: 900;
+}
+.grooming-card-1{
+  background: url("img/gallery_img_1.jpg") no-repeat;
+  background-size: cover;
+}
+.grooming-card-2{
+  background: url("img/gallery_img_2.jpg") no-repeat;
+  background-size: cover;
+}
+.grooming-card-3{
+  background: url("img/gallery_img_3.jpg") no-repeat;
+  background-size: cover;
+}
+.grooming-card-4{
+  background: url("img/gallery_img_4.jpg") no-repeat;
+  background-size: cover;
+}
+.grooming-card-5{
+  background: url("img/gallery_img_5.jpg") no-repeat;
+  background-size: cover;
+}
+.grooming-card-6{
+  background: url("img/gallery_img_6.jpg") no-repeat;
+  background-size: cover;
+}
